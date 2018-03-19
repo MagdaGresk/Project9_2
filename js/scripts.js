@@ -6,9 +6,9 @@ var allNames = femaleNames.concat(maleNames)
 console.log(allNames)
 
 var newName = 'Marian'
+var updateList = allNames.push(newName)
 
 if (allNames.indexOf(newName) === -1) {
-	var updateList = allNames.push(newName)
 	console.log(updateList)
 } else {
 	console.log(allNames)
