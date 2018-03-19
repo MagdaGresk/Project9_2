@@ -1,15 +1,15 @@
-var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
-var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
+var femaleNames = ['Asia' , 'Kasia' , 'Ola' , 'Jola']
+var maleNames = ['Piotrek' , 'Marek' , 'Arek' , 'Jarek']
 
-var allNames = femaleNames.concat(maleNames);
+var allNames = femaleNames.concat(maleNames)
 
-console.log(allNames);
+console.log(allNames)
 
-var newName = 'Marian';
+var newName = 'Marian'
 
 if (allNames.indexOf(newName) === -1) {
-	console.log(allNames.push(newName));
-	}
-else {
-	console.log(allNames);
-	};
+	var updateList = allNames.push(newName)
+	console.log(updateList)
+} else {
+	console.log(allNames)
+}
